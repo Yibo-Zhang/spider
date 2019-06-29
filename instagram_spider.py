@@ -68,6 +68,7 @@ def homepage_crawler(homepage, dir):
                     name = link.split('/')[-1]
                     urlretrieve(link, dir + '/%s.png' % name)
                 page_links.append(base_url)
+                ######################################################################################
 
             page_info = js_data["entry_data"]["ProfilePage"][0]["graphql"]["user"]["edge_owner_to_timeline_media"][
                 'page_info']
