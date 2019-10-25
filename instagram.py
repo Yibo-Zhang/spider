@@ -121,9 +121,10 @@ class Instagram(object):
                     print(e)
                     print('cursor is:' + cursor)
                 finally:
-                    print(page_links)		
+                    print(page_links)
+        print('FINISHED')		
         return page_links
 if __name__ == '__main__':
-    user_name = 'eimi__fukada'
+    user_name = 'la_vie_enrose__'
     ins = Instagram(user_name)
     ins.run()
