@@ -121,3 +121,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# bs4
+.xml
+.iml
+
+# database
+.db
