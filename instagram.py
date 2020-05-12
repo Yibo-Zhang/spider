@@ -159,6 +159,9 @@ class Instagram(object):
 
 
 if __name__ == '__main__':
+    name_list = ['nn_yun_s','la_vie_enrose__','hyunniestyle','ssovely1024','oxxooi','sexywht','kiligkira']
     user_name = 'la_vie_enrose__'
-    ins = Instagram(user_name)
-    ins.run()
+    for i in name_list:
+        ins = Instagram(i)
+        ins.run()
+        print(i,'is finished')
